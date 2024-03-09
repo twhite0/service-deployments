@@ -1,0 +1,16 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.twhite0.service.deployments'
+version = '1.0.0'
+
+allprojects {
+	jar {
+		enabled = false
+	}
+
+	repositories {
+		mavenCentral()
+	}
+}

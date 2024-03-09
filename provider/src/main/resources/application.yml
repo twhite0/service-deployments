@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+    application:
+      name: provider
+server:
+  port: 50000
+logging:
+  level:
+    org.springframework.cloud: 'INFO'
+    org.apache.http: 'INFO'

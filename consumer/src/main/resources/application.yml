@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+    application:
+      name: consumer
+server:
+  port: 40000
+logging:
+  level:
+    org.springframework.cloud: 'INFO'
+    org.apache.http: 'INFO'
+PROVIDER_HOST: http://localhost:50000
